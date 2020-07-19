@@ -13,9 +13,8 @@ def countingSort(arr, n):
 
 	for i in arr:
 		index = count[i] - 1
-		if index >= 0:
-			ans[index] = i 
-			count[i] -= 1
+		ans[index] = i 
+		count[i] -= 1
 	return ans
 
 n = int(input())
