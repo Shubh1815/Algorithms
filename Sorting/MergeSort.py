@@ -9,7 +9,7 @@ def mergeSort(arr):
 
 	return merge(arr1, arr2) 
 
-#O(arr1 + arr2) -> O(n)
+#O(|arr1| + |arr2|) -> O(n)
 def merge(arr1, arr2):
 	i = 0
 	j = 0
