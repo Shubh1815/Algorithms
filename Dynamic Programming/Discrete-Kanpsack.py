@@ -1,4 +1,5 @@
 def discrete_knapsack(wp, cap):
+	
 	dp = [[0 for i in range(cap + 1)] for j in range(len(wp) + 1)]
 	
 	for i in range(1, len(wp) + 1):
